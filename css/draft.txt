@@ -1,0 +1,68 @@
+        <div class="testimonial pd-y">
+            <div class="overlay">
+                <div class="contaner">
+                    <div class="testimonial-item">
+                        <div class="testimonial-heading">
+                            <img src="images/testimonial/perso1.webp" alt="img">
+                            <div class="testimonial-desc">
+                                <h3>jone dos</h3>
+                                <span>web designer</span>
+                            </div>
+                        </div>
+                        <p>Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida
+                            vehicula.
+                            Mauris tincidunt sem sed arcu. Nunc posuere.
+                        </p>
+                    </div><!-- end testimonial-item -->
+                    <div class="testimonial-item mg">
+                        <div class="testimonial-heading">
+                            <img src="images/testimonial/perso1.webp" alt="img">
+                            <div class="testimonial-desc">
+                                <h3>jone dos</h3>
+                                <span>web designer</span>
+                            </div>
+                        </div>
+                        <p>Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida
+                            vehicula.
+                            Mauris tincidunt sem sed arcu. Nunc posuere.
+                        </p>
+                    </div><!-- end testimonial-item -->
+                    <div class="clear"></div>
+                </div><!-- end contaner -->
+            </div><!-- end overlay -->
+            
+        </div><!-- end testimonial -->
+.testimonial{
+    position: relative;
+    background-image: url(../images/background/background3.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    overflow: hidden;
+    height: 350px;
+    padding: 120px 0;
+}
+.testimonial-item{
+    width: 35%;
+    float: left;
+    margin: auto;
+    padding: 95px 0;
+    color: #fff;
+
+}
+.testimonial .contaner{
+    margin-left: 15%;
+}
+.testimonial-item.mg{
+    margin: 0 4%;
+}
+.testimonial-heading img{
+    border-radius: 50%;
+    margin-bottom: -13px;
+}
+.testimonial-heading .testimonial-desc{
+    display: inline-block;
+    padding: 20px 0;
+    line-height: 1.7;
+}
